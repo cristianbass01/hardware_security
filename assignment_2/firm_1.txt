@@ -1,0 +1,36 @@
+• What file signatures are present in firmware.bin?
+
+$ binwalk --signature firmware.bin 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Broadcom 96345 firmware header, header size: 256, firmware version: "8", board id: "6328A-1241N", ~CRC32 header checksum: 0xC349BB87, ~CRC32 data checksum: 0x198D0C17
+268           0x10C           LZMA compressed data, properties: 0x6D, dictionary size: 8388608 bytes, uncompressed size: 7923805 bytes
+2309872       0x233EF0        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3764953 bytes, 1357 inodes, blocksize: 262144 bytes, created: 2023-10-09 21:45:35
+
+• Can you identify the memory location where the different objects in the firmware
+are loaded from?
+
+
+• Can you identify the bootloader name and version?
+name: Broadcom 96345
+version: 8
+
+• How large is the kernel image?
+
+
+• Analyze the entropy of the file and interpret the plot.
+See firmware_entropy.png
+
+
+• Can you extract the file system of this firmware image?
+binwalk firmware.bin --extract
+
+
+• Is there anything else you can tell your friend about this file?
+
+I have foudn a note in squashfs.root-0/rom:
+
+SQUASHFS USERS:
+After firstboot has been run, / will be jffs2 and /rom will be squashfs
+(* except when in failsafe)

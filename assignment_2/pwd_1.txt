@@ -1,0 +1,31 @@
+OPEN: https://cloud.binary.ninja/bn/637bd35e-42f5-4712-9867-da47f2e953d0?view=Disassembly&il=0&func=134218276&address=134218276
+
+The address to the function that checks if the input corrispond to the actual password 
+is in 0x80001ac.
+
+This function checks that each char of the guessed password is equal to
+some saved pwd ^ 0x4d.
+
+FUNCTION:
+
+int32_t check_password(char* guessed_pwd, char* real_pwd)
+  char* guessed_pwd = guessed_pwd
+  char* real_pwd = real_pwd
+  int32_t i = 0
+
+  while (*guessed_pwd != 0)
+      if (*guessed_pwd == (*real_pwd ^ 0x4d))
+          i += 1
+
+      guessed_pwd = &guessed_pwd[1]
+      real_pwd = &real_pwd[1]
+
+  if (i != 4)
+      return 1
+
+  return 0
+
+So to retrieve the password we have to check the assembly code 
+where we can see that password = /""9
+So, now doing "chr(ord(i) ^ 0x4d)" on each char i of the saved password
+we can recover the actual password "boot"

@@ -1,0 +1,7 @@
+Es 1:
+
+https://cloud.binary.ninja/bn/273ce16d-7b99-4ae8-8dff-1554e940e001?view=Disassembly&func=134220800&il=3
+
+https://cloud.binary.ninja/bn/8215f814-f279-49a6-a469-b4d12c682941?view=Linear+Disassembly&func=134218180&il=4&address=134218180
+
+

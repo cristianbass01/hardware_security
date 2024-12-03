@@ -1,0 +1,26 @@
+OPEN: https://cloud.binary.ninja/bn/b19df4c1-4523-4daa-acd3-01d73e898af1?view=Linear+Disassembly&func=134218266&il=3&address=134218248
+
+The function that validate the guessed key is at address 0x80001d0.
+
+int32_t check_key(int32_t guessed_key)
+  int32_t encoding = 0
+
+  for (void* i = nullptr; i != 6; i += 1)
+      encoding += *(i + guessed_key)
+
+  if (encoding != 0x277)
+      return 1
+
+  return 0
+
+The guessed key is encoded as its char sum, 
+and the encoding is compared to 0x277 which is the right encoding to grant access
+
+Some valid key:
+['aaaayz', 'aaabxz', 'aaabyy', 'aaacwz', 'aaacxy', 'aaadvz', 'aaadwy', 'aaadxx', 'aaaeuz', 'aaaevy', 'aaaewx', 'aaaftz', 'aaafuy', 'aaafvx', 'aaafww']
+['aaagsz', 'aaagty', 'aaagux', 'aaagvw', 'aaahrz', 'aaahsy', 'aaahtx', 'aaahuw', 'aaahvv', 'aaaiqz', 'aaairy', 'aaaisx', 'aaaitw', 'aaaiuv', 'aaajpz']
+['aaajqy', 'aaajrx', 'aaajsw', 'aaajtv', 'aaajuu', 'aaakoz', 'aaakpy', 'aaakqx', 'aaakrw', 'aaaksv', 'aaaktu', 'aaalnz', 'aaaloy', 'aaalpx', 'aaalqw']
+['aaalrv', 'aaalsu', 'aaaltt', 'aaammz', 'aaamny', 'aaamox', 'aaampw', 'aaamqv', 'aaamru', 'aaamst', 'aaannx', 'aaanow', 'aaanpv', 'aaanqu', 'aaanrt']
+['aaanss', 'aaaoov', 'aaaopu', 'aaaoqt', 'aaaors', 'aaappt', 'aaapqs', 'aaaprr', 'aaaqqr', 'aabbwz', 'aabbxy', 'aabcvz', 'aabcwy', 'aabcxx', 'aabduz']
+['aabdvy', 'aabdwx', 'aabetz', 'aabeuy', 'aabevx', 'aabeww', 'aabfsz', 'aabfty', 'aabfux', 'aabfvw', 'aabgrz', 'aabgsy', 'aabgtx', 'aabguw', 'aabgvv']
+['aabhqz', 'aabhry', 'aabhsx', 'aabhtw', 'aabhuv', 'aabipz', 'aabiqy', 'aabirx', 'aabisw', 'aabitv', 'aabiuu', 'aabjoz', 'aabjpy', 'aabjqx', 'aabjrw']
