@@ -1,0 +1,14 @@
+Package: ath10k-firmware-qca4019-ct
+Version: 2020-11-08-1
+Depends: libc
+Conflicts: ath10k-firmware-qca4019
+Provides: ath10k-firmware-qca4019
+Source: feeds/base/firmware/ath10k-ct-firmware
+SourceName: ath10k-firmware-qca4019-ct
+Section: firmware
+SourceDateEpoch: 1663879716
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 438910
+Description:  Alternative ath10k firmware for IPQ4019 radio from Candela Technologies.
+ Enables IBSS and other features.  Works with standard or ath10k-ct driver.
+ See:  http://www.candelatech.com/ath10k-10.4.php

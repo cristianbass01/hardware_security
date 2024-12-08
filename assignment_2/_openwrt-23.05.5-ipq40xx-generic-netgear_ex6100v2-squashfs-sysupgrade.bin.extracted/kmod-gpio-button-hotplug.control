@@ -1,0 +1,17 @@
+Package: kmod-gpio-button-hotplug
+Version: 5.15.167-3
+Depends: kernel (=5.15.167-1-8f9ae65a21e1c33e542689b57c4d70f0)
+Source: feeds/base/kernel/gpio-button-hotplug
+SourceName: kmod-gpio-button-hotplug
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1684422703
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5967
+Description:  This is a replacement for the following in-kernel drivers:
+ 1) gpio_keys (KEYBOARD_GPIO)
+ 2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
+ 
+ Instead of generating input events (like in-kernel drivers do) it generates
+ uevent-s and broadcasts them. This allows disabling input subsystem which is
+ an overkill for OpenWrt simple needs.
