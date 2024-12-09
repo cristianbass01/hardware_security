@@ -34,3 +34,7 @@ I have foudn a note in squashfs.root-0/rom:
 SQUASHFS USERS:
 After firstboot has been run, / will be jffs2 and /rom will be squashfs
 (* except when in failsafe)
+
+
+
+Boot address: 0x%08x
