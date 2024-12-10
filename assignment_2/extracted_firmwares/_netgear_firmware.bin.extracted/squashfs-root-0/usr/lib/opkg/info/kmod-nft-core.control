@@ -1,0 +1,12 @@
+Package: kmod-nft-core
+Version: 5.15.167-1
+Depends: kernel (=5.15.167-1-8f9ae65a21e1c33e542689b57c4d70f0), kmod-nfnetlink, kmod-nf-reject, kmod-nf-reject6, kmod-nf-conntrack6, kmod-nf-nat, kmod-nf-log, kmod-nf-log6, kmod-lib-crc32c
+Source: feeds/base/kernel/linux
+SourceName: kmod-nft-core
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1726325473
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 119496
+Description:  Kernel module support for nftables

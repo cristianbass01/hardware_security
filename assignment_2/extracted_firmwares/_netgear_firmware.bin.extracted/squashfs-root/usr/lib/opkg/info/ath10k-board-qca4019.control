@@ -1,0 +1,12 @@
+Package: ath10k-board-qca4019
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/firmware/linux-firmware
+SourceName: ath10k-board-qca4019
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 83898
+Description:  ath10k qca4019 board firmware

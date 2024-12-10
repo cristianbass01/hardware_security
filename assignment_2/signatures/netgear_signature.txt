@@ -1,0 +1,418 @@
+
+[1;35m/analysis/extractions/netgear_firmware.bin[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m0                                  0x0                                Device tree blob (DTB), version: 17, CPU ID: 0, total size: 3112960 bytes[0m
+[32m3145664                            0x2FFFC0                           uImage firmware image, header size: 64 bytes, data size: 0 bytes, compression: none, CPU: ARM, OS: Linux, image type: Filesystem Image, load address: 0x0, entry point: 0x0, creation time: 2024-09-23 12:34:46, image name: "OpenWrt fake filesystem"[0m
+[32m3145728                            0x300000                           SquashFS file system, little endian, version: 4.0, compression: xz, inode count: 1365, block size: 262144, image size: 3963934 bytes, created: 2024-09-23 12:34:46[0m
+[1;94m[0m
+[1;32m[+] Extraction of dtb data at offset 0x0 completed successfully[0m
+[1;33m[#] Extraction of uimage data at offset 0x2FFFC0 declined[0m
+[1;32m[+] Extraction of squashfs data at offset 0x300000 completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/0/images/fdt-1/data[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m0                                  0x0                                Device tree blob (DTB), version: 17, CPU ID: 0, total size: 18210 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of dtb data at offset 0x0 completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/load.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 1048 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/wifirate.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 834 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/wireless.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 927 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/bandwidth.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 926 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/connections.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 1023 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/www/luci-static/resources/svg/channel_analysis.svg[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m138                                0x8A                               SVG image, total size: 1538 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of svg data at offset 0x8A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/etc/ssl/certs/ca-certificates.crt[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[32m0                                  0x0                                PEM certificate[0m
+[32m2772                               0xAD4                              PEM certificate[0m
+[32m4744                               0x1288                             PEM certificate[0m
+[32m5648                               0x1610                             PEM certificate[0m
+[32m7766                               0x1E56                             PEM certificate[0m
+[32m9815                               0x2657                             PEM certificate[0m
+[32m11019                              0x2B0B                             PEM certificate[0m
+[32m12223                              0x2FBF                             PEM certificate[0m
+[32m14114                              0x3722                             PEM certificate[0m
+[32m14867                              0x3A13                             PEM certificate[0m
+[32m16055                              0x3EB7                             PEM certificate[0m
+[32m17938                              0x4612                             PEM certificate[0m
+[32m18594                              0x48A2                             PEM certificate[0m
+[32m19331                              0x4B83                             PEM certificate[0m
+[32m20592                              0x5070                             PEM certificate[0m
+[32m22759                              0x58E7                             PEM certificate[0m
+[32m24926                              0x615E                             PEM certificate[0m
+[32m26187                              0x664B                             PEM certificate[0m
+[32m28102                              0x6DC6                             PEM certificate[0m
+[32m30017                              0x7541                             PEM certificate[0m
+[32m31952                              0x7CD0                             PEM certificate[0m
+[32m33936                              0x8490                             PEM certificate[0m
+[32m35425                              0x8A61                             PEM certificate[0m
+[32m36365                              0x8E0D                             PEM certificate[0m
+[32m38451                              0x9633                             PEM certificate[0m
+[32m39192                              0x9918                             PEM certificate[0m
+[32m41083                              0xA07B                             PEM certificate[0m
+[32m42413                              0xA5AD                             PEM certificate[0m
+[32m44677                              0xAE85                             PEM certificate[0m
+[32m45568                              0xB200                             PEM certificate[0m
+[32m46922                              0xB74A                             PEM certificate[0m
+[32m49000                              0xBF68                             PEM certificate[0m
+[32m51053                              0xC76D                             PEM certificate[0m
+[32m52570                              0xCD5A                             PEM certificate[0m
+[32m53620                              0xD174                             PEM certificate[0m
+[32m54670                              0xD58E                             PEM certificate[0m
+[32m56187                              0xDB7B                             PEM certificate[0m
+[32m57724                              0xE17C                             PEM certificate[0m
+[32m59074                              0xE6C2                             PEM certificate[0m
+[32m60380                              0xEBDC                             PEM certificate[0m
+[32m61231                              0xEF2F                             PEM certificate[0m
+[32m62569                              0xF469                             PEM certificate[0m
+[32m63863                              0xF977                             PEM certificate[0m
+[32m64702                              0xFCBE                             PEM certificate[0m
+[32m66069                              0x10215                            PEM certificate[0m
+[32m66859                              0x1052B                            PEM certificate[0m
+[32m68790                              0x10CB6                            PEM certificate[0m
+[32m70778                              0x1147A                            PEM certificate[0m
+[32m73022                              0x11D3E                            PEM certificate[0m
+[32m73999                              0x1210F                            PEM certificate[0m
+[32m76121                              0x12959                            PEM certificate[0m
+[32m77626                              0x12F3A                            PEM certificate[0m
+[32m79269                              0x135A5                            PEM certificate[0m
+[32m80359                              0x139E7                            PEM certificate[0m
+[32m81892                              0x13FE4                            PEM certificate[0m
+[32m84136                              0x148A8                            PEM certificate[0m
+[32m86116                              0x15064                            PEM certificate[0m
+[32m88088                              0x15818                            PEM certificate[0m
+[32m89999                              0x15F8F                            PEM certificate[0m
+[32m91910                              0x16706                            PEM certificate[0m
+[32m92675                              0x16A03                            PEM certificate[0m
+[32m93440                              0x16D00                            PEM certificate[0m
+[32m94144                              0x16FC0                            PEM certificate[0m
+[32m94938                              0x172DA                            PEM certificate[0m
+[32m96199                              0x177C7                            PEM certificate[0m
+[32m97428                              0x17C94                            PEM certificate[0m
+[32m99400                              0x18448                            PEM certificate[0m
+[32m100169                             0x18749                            PEM certificate[0m
+[32m102084                             0x18EC4                            PEM certificate[0m
+[32m103532                             0x1946C                            PEM certificate[0m
+[32m104899                             0x199C3                            PEM certificate[0m
+[32m105766                             0x19D26                            PEM certificate[0m
+[32m107783                             0x1A507                            PEM certificate[0m
+[32m108800                             0x1A900                            PEM certificate[0m
+[32m110955                             0x1B16B                            PEM certificate[0m
+[32m112894                             0x1B8FE                            PEM certificate[0m
+[32m114062                             0x1BD8E                            PEM certificate[0m
+[32m116136                             0x1C5A8                            PEM certificate[0m
+[32m118075                             0x1CD3B                            PEM certificate[0m
+[32m118865                             0x1D051                            PEM certificate[0m
+[32m120788                             0x1D7D4                            PEM certificate[0m
+[32m122719                             0x1DF5F                            PEM certificate[0m
+[32m124841                             0x1E7A9                            PEM certificate[0m
+[32m126301                             0x1ED5D                            PEM certificate[0m
+[32m127176                             0x1F0C8                            PEM certificate[0m
+[32m129197                             0x1F8AD                            PEM certificate[0m
+[32m131210                             0x2008A                            PEM certificate[0m
+[32m132686                             0x2064E                            PEM certificate[0m
+[32m134032                             0x20B90                            PEM certificate[0m
+[32m134927                             0x20F0F                            PEM certificate[0m
+[32m136850                             0x21692                            PEM certificate[0m
+[32m138891                             0x21E8B                            PEM certificate[0m
+[32m140814                             0x2260E                            PEM certificate[0m
+[32m143168                             0x22F40                            PEM certificate[0m
+[32m145091                             0x236C3                            PEM certificate[0m
+[32m146047                             0x23A7F                            PEM certificate[0m
+[32m148161                             0x242C1                            PEM certificate[0m
+[32m149105                             0x24671                            PEM certificate[0m
+[32m151199                             0x24E9F                            PEM certificate[0m
+[32m152456                             0x25388                            PEM certificate[0m
+[32m153705                             0x25869                            PEM certificate[0m
+[32m155055                             0x25DAF                            PEM certificate[0m
+[32m156409                             0x262F9                            PEM certificate[0m
+[32m157239                             0x26637                            PEM certificate[0m
+[32m158500                             0x26B24                            PEM certificate[0m
+[32m160468                             0x272D4                            PEM certificate[0m
+[32m161692                             0x2779C                            PEM certificate[0m
+[32m163160                             0x27D58                            PEM certificate[0m
+[32m164559                             0x282CF                            PEM certificate[0m
+[32m165983                             0x2885F                            PEM certificate[0m
+[32m168028                             0x2905C                            PEM certificate[0m
+[32m170077                             0x2985D                            PEM certificate[0m
+[32m171444                             0x29DB4                            PEM certificate[0m
+[32m172811                             0x2A30B                            PEM certificate[0m
+[32m174393                             0x2A939                            PEM certificate[0m
+[32m176276                             0x2B094                            PEM certificate[0m
+[32m177545                             0x2B589                            PEM certificate[0m
+[32m179415                             0x2BCD7                            PEM certificate[0m
+[32m181367                             0x2C477                            PEM certificate[0m
+[32m182860                             0x2CA4C                            PEM certificate[0m
+[32m184373                             0x2D035                            PEM certificate[0m
+[32m186577                             0x2D8D1                            PEM certificate[0m
+[32m188667                             0x2E0FB                            PEM certificate[0m
+[32m189550                             0x2E46E                            PEM certificate[0m
+[32m190519                             0x2E837                            PEM certificate[0m
+[32m192556                             0x2F02C                            PEM certificate[0m
+[32m194471                             0x2F7A7                            PEM certificate[0m
+[32m196362                             0x2FF0A                            PEM certificate[0m
+[32m197310                             0x302BE                            PEM certificate[0m
+[32m199404                             0x30AEC                            PEM certificate[0m
+[32m200917                             0x310D5                            PEM certificate[0m
+[32m202093                             0x3156D                            PEM certificate[0m
+[32m203984                             0x31CD0                            PEM certificate[0m
+[32m204827                             0x3201B                            PEM certificate[0m
+[32m206860                             0x3280C                            PEM certificate[0m
+[32m207674                             0x32B3A                            PEM certificate[0m
+[32m208533                             0x32E95                            PEM certificate[0m
+[32m209790                             0x3337E                            PEM certificate[0m
+[32m211092                             0x33894                            PEM certificate[0m
+[32m211866                             0x33B9A                            PEM certificate[0m
+[1;94m[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x0 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xAD4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1288 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1610 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1E56 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2657 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2B0B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2FBF completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3722 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3A13 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3EB7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x4612 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x48A2 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x4B83 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x5070 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x58E7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x615E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x664B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x6DC6 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x7541 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x7CD0 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x8490 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x8A61 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x8E0D completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x9633 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x9918 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xA07B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xA5AD completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xAE85 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xB200 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xB74A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xBF68 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xC76D completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xCD5A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xD174 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xD58E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xDB7B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xE17C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xE6C2 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xEBDC completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xEF2F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xF469 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xF977 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0xFCBE completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x10215 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1052B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x10CB6 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1147A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x11D3E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1210F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x12959 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x12F3A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x135A5 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x139E7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x13FE4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x148A8 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x15064 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x15818 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x15F8F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x16706 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x16A03 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x16D00 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x16FC0 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x172DA completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x177C7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x17C94 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x18448 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x18749 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x18EC4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1946C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x199C3 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x19D26 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1A507 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1A900 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1B16B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1B8FE completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1BD8E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1C5A8 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1CD3B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1D051 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1D7D4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1DF5F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1E7A9 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1ED5D completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1F0C8 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x1F8AD completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2008A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2064E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x20B90 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x20F0F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x21692 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x21E8B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2260E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x22F40 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x236C3 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x23A7F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x242C1 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x24671 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x24E9F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x25388 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x25869 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x25DAF completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x262F9 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x26637 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x26B24 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x272D4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2779C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x27D58 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x282CF completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2885F completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2905C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2985D completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x29DB4 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2A30B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2A939 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2B094 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2B589 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2BCD7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2C477 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2CA4C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2D035 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2D8D1 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2E0FB completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2E46E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2E837 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2F02C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2F7A7 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x2FF0A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x302BE completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x30AEC completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x310D5 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3156D completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x31CD0 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3201B completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3280C completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x32B3A completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x32E95 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x3337E completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x33894 completed successfully[0m
+[1;32m[+] Extraction of pem_certificate data at offset 0x33B9A completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/0/images/kernel-1/data[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m0                                  0x0                                Linux ARM boot executable zImage, little endian[0m
+[32m26340                              0x66E4                             XZ compressed data, total size: 2941612 bytes[0m
+[1;94m[0m
+[1;32m[+] Extraction of xz data at offset 0x66E4 completed successfully[0m
+[1;94m[0m
+
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/300000/squashfs-root/usr/sbin/fw_printenv[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[33m0                                  0x0                                ELF binary, 32-bit executable, ARM for System-V (Unix), little endian[0m
+[33m18147                              0x46E3                             U-Boot version string: 2023.04[0m
+[31m20348                              0x4F7C                             CRC32 polynomial table, little endian[0m
+[1;94m[0m
+
+[90m[[0m2024-12-10T15:14:42Z [1m[31mERROR[0m binwalk::extractors::common[90m][0m Failed to execute command 7zz["x", "-y", "-o.", "-p''", "/analysis/extractions/netgear_firmware.bin.extracted/0/images/kernel-1/data.extracted/66E4/decompressed.bin.extracted/93AC44/cpio_93AC44.bin"]: No such file or directory (os error 2)
+[90m[[0m2024-12-10T15:14:42Z [1m[31mERROR[0m binwalk::extractors::common[90m][0m Failed to spawn external extractor for 'cpio' signature: No such file or directory (os error 2)
+[90m[[0m2024-12-10T15:14:42Z [1m[31mERROR[0m binwalk::extractors::common[90m][0m Failed to execute command 7zz["x", "-y", "-o.", "-p''", "/analysis/extractions/netgear_firmware.bin.extracted/0/images/kernel-1/data.extracted/66E4/decompressed.bin.extracted/93AC44/cpio_93AC44.bin"]: No such file or directory (os error 2)
+[90m[[0m2024-12-10T15:14:42Z [1m[31mERROR[0m binwalk::extractors::common[90m][0m Failed to spawn external extractor for 'cpio' signature: No such file or directory (os error 2)
+
+[1;35m/analysis/extractions/netgear_firmware.bin.extracted/0/images/kernel-1/data.extracted/66E4/decompressed.bin[0m
+[1;94m[0m
+[1;94mDECIMAL                            HEXADECIMAL                        DESCRIPTION[0m
+[1;94m[0m
+[31m0                                  0x0                                Linux version 5.15.167 (builder@buildhost) (arm-openwrt-linux-muslgnueabi-gcc (OpenWrt GCC 12.3.0 r24106-10cc5fcd00) 12.3.0, GNU ld (GNU Binutils) 2.40.0) #0 SMP Mon Sep 23 12:34:46 2024, has symbol table: true[0m
+[31m1123520                            0x1124C0                           SHA256 hash constants, little endian[0m
+[31m8226996                            0x7D88B4                           SHA256 hash constants, little endian[0m
+[31m8244416                            0x7DCCC0                           CRC32 polynomial table, little endian[0m
+[32m8520051                            0x820173                           Copyright text: "Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it> "[0m
+[32m8553165                            0x8282CD                           Copyright text: "Copyright(c) Pierre Ossman "[0m
+[33m8720384                            0x851000                           ELF binary, 32-bit shared object, ARM for System-V (Unix), little endian[0m
+[32m9677892                            0x93AC44                           CPIO ASCII archive, file count: 3[0m
+[31m10472640                           0x9FCCC0                           AES S-Box[0m
+[31m10472896                           0x9FCDC0                           AES S-Box[0m
+[1;94m[0m
+[1;31m[-] Extraction of linux_kernel data at offset 0x0 failed![0m
+[1;31m[-] Extraction of cpio data at offset 0x93AC44 failed![0m
+[1;94m[0m
+
+Analyzed 1603 files for 101 file signatures (226 magic patterns) in 14.2 seconds

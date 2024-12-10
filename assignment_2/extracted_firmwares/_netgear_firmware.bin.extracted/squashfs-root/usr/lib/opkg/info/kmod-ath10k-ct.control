@@ -1,0 +1,13 @@
+Package: kmod-ath10k-ct
+Version: 5.15.167+2022-05-13-f808496f-5
+Depends: kernel (=5.15.167-1-8f9ae65a21e1c33e542689b57c4d70f0), kmod-mac80211, kmod-ath, kmod-hwmon-core
+Provides: kmod-ath10k
+Source: feeds/base/kernel/ath10k-ct
+SourceName: kmod-ath10k-ct
+License: GPLv2
+Section: kernel
+SourceDateEpoch: 1690370984
+Maintainer: Ben Greear <greearb@candelatech.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 240881
+Description:  ath10k-ct driver optimized for CT ath10k firmware

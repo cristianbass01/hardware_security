@@ -1,0 +1,4 @@
+/etc/modules-boot.d/50-usb-ohci
+/etc/modules.d/50-usb-ohci
+/lib/modules/5.15.134/ohci-platform.ko
+/lib/modules/5.15.134/ohci-hcd.ko

@@ -1,0 +1,11 @@
+Package: kmod-nls-base
+Version: 5.15.134-1
+Depends: kernel (=5.15.134-1-9152116740a796ab9240fa85b601d594)
+Source: package/kernel/linux
+SourceName: kmod-nls-base
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1694890838
+Architecture: mips_mips32
+Installed-Size: 3209
+Description:  Kernel module for NLS (Native Language Support)

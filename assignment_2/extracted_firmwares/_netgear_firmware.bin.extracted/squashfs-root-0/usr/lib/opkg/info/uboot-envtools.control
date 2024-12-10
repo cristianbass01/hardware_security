@@ -1,0 +1,12 @@
+Package: uboot-envtools
+Version: 2023.04-1
+Depends: libc
+Source: feeds/base/boot/uboot-envtools
+SourceName: uboot-envtools
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: Licenses/README
+Section: utils
+SourceDateEpoch: 1720510417
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14225
+Description:  This package includes tools to read and modify U-Boot bootloader environment.

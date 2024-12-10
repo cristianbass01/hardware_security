@@ -38,3 +38,6 @@ After firstboot has been run, / will be jffs2 and /rom will be squashfs
 
 
 Boot address: 0x%08x
+
+File:
+openwrt-23.05.5-ipq40xx-generic-netgear_ex6100v2-squashfs-sysupgrade.bin

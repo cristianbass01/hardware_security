@@ -1,0 +1,10 @@
+Package: bcm63xx-cfe
+Version: 2021-06-22-e5050f37-1
+Depends: libc
+Source: package/kernel/bcm63xx-cfe
+SourceName: bcm63xx-cfe
+Section: boot
+SourceDateEpoch: 1624361261
+Architecture: mips_mips32
+Installed-Size: 95
+Description:  CFE RAM binaries for bcm63xx.

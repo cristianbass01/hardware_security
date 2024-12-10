@@ -1,0 +1,11 @@
+Package: kmod-crypto-acompress
+Version: 5.15.134-1
+Depends: kernel (=5.15.134-1-9152116740a796ab9240fa85b601d594)
+Source: package/kernel/linux
+SourceName: kmod-crypto-acompress
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1694890838
+Architecture: mips_mips32
+Installed-Size: 3316
+Description:  Asynchronous Compression operations

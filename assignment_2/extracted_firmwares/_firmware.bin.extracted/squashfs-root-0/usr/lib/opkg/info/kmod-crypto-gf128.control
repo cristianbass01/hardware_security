@@ -1,0 +1,11 @@
+Package: kmod-crypto-gf128
+Version: 5.15.134-1
+Depends: kernel (=5.15.134-1-9152116740a796ab9240fa85b601d594)
+Source: package/kernel/linux
+SourceName: kmod-crypto-gf128
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1694890838
+Architecture: mips_mips32
+Installed-Size: 192
+Description:  GF(2^128) multiplication functions CryptoAPI module
